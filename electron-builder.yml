@@ -1,0 +1,25 @@
+appId: cn.modelport.desktop
+productName: ModelPort
+asar: true
+npmRebuild: false
+electronDist: node_modules/electron/dist
+directories:
+  output: dist
+files:
+  - desktop/**/*
+  - src/**/*
+  - ui/**/*
+  - package.json
+  - '!node_modules/**/.cache/**/*'
+  - '!node_modules/**/test{,s}/**/*'
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  executableName: ModelPort
+  signExecutable: false
+portable:
+  artifactName: ModelPort-${version}-win-x64.exe
+  requestExecutionLevel: user
+  unpackDirName: false

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="model-sync-token" content="__CSRF_TOKEN__">
+  <title>ModelPort · 模型同步工作台</title>
+  <link rel="icon" href="/icon.svg"><link rel="stylesheet" href="/style.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><img src="/icon.svg" alt=""><div>ModelPort<small>模型同步工作台</small></div></div>
+    <div class="nav-label">工作空间</div>
+    <nav>
+      <button data-view="library" class="nav active"><span>▦</span>模型库<b id="nav-count">0</b></button>
+      <button data-view="tasks" class="nav"><span>⇄</span>同步任务<b id="task-count">0</b></button>
+      <button data-view="accounts" class="nav"><span>◎</span>平台与账号</button>
+      <button data-view="logs" class="nav"><span>≡</span>运行记录</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="privacy-icon">◈</div><strong>留在你的电脑上</strong><p>原始模型、素材和登录状态<br>均在本机保存</p><div class="version">本地工作空间 <span>v0.1</span></div></div>
+  </aside>
+  <div class="workspace">
+    <header><div class="breadcrumb">工作空间 <span>/</span> <strong id="view-label">模型库</strong></div><div class="header-right"><span class="local-dot"></span>本地运行 <span class="beta">试运行版</span><span class="avatar">P</span></div></header>
+    <main id="main"><div class="loading">正在打开工作空间…</div></main>
+    <footer><span id="workspace-info">ModelPort</span><span>素材本地管理 · 作者：罗生门 · 版权所有 © 2026 罗生门</span></footer>
+  </div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body></html>
