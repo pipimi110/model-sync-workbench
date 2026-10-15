@@ -4,6 +4,8 @@
 
 目标：从一个 MakerWorld 模型链接开始，在 NexPrint 保存草稿，或在创想云保存为仅自己可见。第一次建议只选一个模型、一个目标平台，确认结果后再批量操作。
 
+使用参考视频：[Bilibili 使用视频](https://www.bilibili.com/video/BV154JU6mEXo)。遇到界面差异时，以本手册列出的当前支持范围和确认步骤为准。
+
 ## 1. 启动工具
 
 如果收到发布版 `ModelPort-版本-win-x64.exe`，直接双击即可运行，无需安装 Node.js；资料默认保存在 `%APPDATA%\ModelPort\data\`。详见[单文件 EXE 说明](packaging.zh-CN.md)。Chrome 的连接步骤与源码版相同。

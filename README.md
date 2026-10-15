@@ -4,9 +4,9 @@ Windows 本地桌面应用。第一版范围：MakerWorld 模型链接导入、N
 
 ## 使用文档（第一阶段验收稿）
 
-[文档与验收入口](docs/README.md) · [快速开始](docs/quick-start.zh-CN.md) · [使用手册](docs/user-guide.zh-CN.md) · [故障排查](docs/troubleshooting.zh-CN.md) · [视频脚本](docs/video-script.zh-CN.md)
+[文档与验收入口](docs/README.md) · [快速开始](docs/quick-start.zh-CN.md) · [使用手册](docs/user-guide.zh-CN.md) · [故障排查](docs/troubleshooting.zh-CN.md) · [使用参考视频](https://www.bilibili.com/video/BV154JU6mEXo) · [视频脚本](docs/video-script.zh-CN.md)
 
-当前交付为文档与视频脚本初稿，逐步实测、视频成片、离线 HTML 和应用内帮助入口将在分阶段验收后制作。支持边界见[功能核对表](docs/feature-audit.zh-CN.md)。
+当前交付包含文档与视频脚本初稿，并提供[使用参考视频](https://www.bilibili.com/video/BV154JU6mEXo)。逐步实测、专属视频成片、离线 HTML 和应用内帮助入口将在分阶段验收后制作。支持边界见[功能核对表](docs/feature-audit.zh-CN.md)。
 
 ## 运行
 

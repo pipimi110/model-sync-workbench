@@ -6,6 +6,8 @@
 
 ## 从这里阅读
 
+使用参考视频：[Bilibili 使用视频](https://www.bilibili.com/video/BV154JU6mEXo)。逐步实测和专属教程成片仍按后续阶段验收。
+
 | 文档 | 适合什么时候看 |
 | --- | --- |
 | [快速开始](quick-start.zh-CN.md) | 第一次启动，完成一轮模型同步 |
